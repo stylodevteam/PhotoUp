@@ -24,6 +24,8 @@
 
 - (void)viewDidLoad
 {
+    //tasaklarim cok buyuk
+    // can buraya geldi
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
