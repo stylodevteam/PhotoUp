@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1A7E0AC1954D8FF00E15EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */; };
+		D1A7E0AE1954D8FF00E15EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */; };
+		D1A7E0B01954D8FF00E15EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */; };
+		D1A7E0B61954D8FF00E15EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0B41954D8FF00E15EC2 /* InfoPlist.strings */; };
+		D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0B71954D8FF00E15EC2 /* main.m */; };
+		D1A7E0BC1954D8FF00E15EC2 /* PUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */; };
+		D1A7E0BF1954D8FF00E15EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */; };
+		D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */; };
+		D1A7E0C51954D8FF00E15EC2 /* PUDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */; };
+		D1A7E0C71954D8FF00E15EC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */; };
+		D1A7E0CE1954D8FF00E15EC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */; };
+		D1A7E0CF1954D8FF00E15EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */; };
+		D1A7E0D01954D8FF00E15EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */; };
+		D1A7E0D81954D8FF00E15EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0D61954D8FF00E15EC2 /* InfoPlist.strings */; };
+		D1A7E0DA1954D8FF00E15EC2 /* PhotoUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0D91954D8FF00E15EC2 /* PhotoUpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1A7E0D11954D8FF00E15EC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1A7E0A01954D8FF00E15EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1A7E0A71954D8FF00E15EC2;
+			remoteInfo = PhotoUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1A7E0B31954D8FF00E15EC2 /* PhotoUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoUp-Info.plist"; sourceTree = "<group>"; };
+		D1A7E0B51954D8FF00E15EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1A7E0B71954D8FF00E15EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1A7E0B91954D8FF00E15EC2 /* PhotoUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoUp-Prefix.pch"; sourceTree = "<group>"; };
+		D1A7E0BA1954D8FF00E15EC2 /* PUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUAppDelegate.h; sourceTree = "<group>"; };
+		D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUAppDelegate.m; sourceTree = "<group>"; };
+		D1A7E0BE1954D8FF00E15EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1A7E0C01954D8FF00E15EC2 /* PUMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUMasterViewController.h; sourceTree = "<group>"; };
+		D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUMasterViewController.m; sourceTree = "<group>"; };
+		D1A7E0C31954D8FF00E15EC2 /* PUDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUDetailViewController.h; sourceTree = "<group>"; };
+		D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUDetailViewController.m; sourceTree = "<group>"; };
+		D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D1A7E0CC1954D8FF00E15EC2 /* PhotoUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D1A7E0D51954D8FF00E15EC2 /* PhotoUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoUpTests-Info.plist"; sourceTree = "<group>"; };
+		D1A7E0D71954D8FF00E15EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1A7E0D91954D8FF00E15EC2 /* PhotoUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoUpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A7E0A51954D8FF00E15EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A7E0AE1954D8FF00E15EC2 /* CoreGraphics.framework in Frameworks */,
+				D1A7E0B01954D8FF00E15EC2 /* UIKit.framework in Frameworks */,
+				D1A7E0AC1954D8FF00E15EC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A7E0C91954D8FF00E15EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A7E0CE1954D8FF00E15EC2 /* XCTest.framework in Frameworks */,
+				D1A7E0D01954D8FF00E15EC2 /* UIKit.framework in Frameworks */,
+				D1A7E0CF1954D8FF00E15EC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1A7E09F1954D8FF00E15EC2 = {
+			isa = PBXGroup;
+			children = (
+				D1A7E0B11954D8FF00E15EC2 /* PhotoUp */,
+				D1A7E0D31954D8FF00E15EC2 /* PhotoUpTests */,
+				D1A7E0AA1954D8FF00E15EC2 /* Frameworks */,
+				D1A7E0A91954D8FF00E15EC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A7E0A91954D8FF00E15EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */,
+				D1A7E0CC1954D8FF00E15EC2 /* PhotoUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A7E0AA1954D8FF00E15EC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */,
+				D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */,
+				D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */,
+				D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A7E0B11954D8FF00E15EC2 /* PhotoUp */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7E0BA1954D8FF00E15EC2 /* PUAppDelegate.h */,
+				D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */,
+				D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */,
+				D1A7E0C01954D8FF00E15EC2 /* PUMasterViewController.h */,
+				D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */,
+				D1A7E0C31954D8FF00E15EC2 /* PUDetailViewController.h */,
+				D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */,
+				D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */,
+				D1A7E0B21954D8FF00E15EC2 /* Supporting Files */,
+			);
+			path = PhotoUp;
+			sourceTree = "<group>";
+		};
+		D1A7E0B21954D8FF00E15EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7E0B31954D8FF00E15EC2 /* PhotoUp-Info.plist */,
+				D1A7E0B41954D8FF00E15EC2 /* InfoPlist.strings */,
+				D1A7E0B71954D8FF00E15EC2 /* main.m */,
+				D1A7E0B91954D8FF00E15EC2 /* PhotoUp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1A7E0D31954D8FF00E15EC2 /* PhotoUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7E0D91954D8FF00E15EC2 /* PhotoUpTests.m */,
+				D1A7E0D41954D8FF00E15EC2 /* Supporting Files */,
+			);
+			path = PhotoUpTests;
+			sourceTree = "<group>";
+		};
+		D1A7E0D41954D8FF00E15EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A7E0D51954D8FF00E15EC2 /* PhotoUpTests-Info.plist */,
+				D1A7E0D61954D8FF00E15EC2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A7E0A71954D8FF00E15EC2 /* PhotoUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A7E0DD1954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUp" */;
+			buildPhases = (
+				D1A7E0A41954D8FF00E15EC2 /* Sources */,
+				D1A7E0A51954D8FF00E15EC2 /* Frameworks */,
+				D1A7E0A61954D8FF00E15EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoUp;
+			productName = PhotoUp;
+			productReference = D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1A7E0CB1954D8FF00E15EC2 /* PhotoUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A7E0E01954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUpTests" */;
+			buildPhases = (
+				D1A7E0C81954D8FF00E15EC2 /* Sources */,
+				D1A7E0C91954D8FF00E15EC2 /* Frameworks */,
+				D1A7E0CA1954D8FF00E15EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1A7E0D21954D8FF00E15EC2 /* PBXTargetDependency */,
+			);
+			name = PhotoUpTests;
+			productName = PhotoUpTests;
+			productReference = D1A7E0CC1954D8FF00E15EC2 /* PhotoUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A7E0A01954D8FF00E15EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Peopleapps Limited";
+				TargetAttributes = {
+					D1A7E0CB1954D8FF00E15EC2 = {
+						TestTargetID = D1A7E0A71954D8FF00E15EC2;
+					};
+				};
+			};
+			buildConfigurationList = D1A7E0A31954D8FF00E15EC2 /* Build configuration list for PBXProject "PhotoUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1A7E09F1954D8FF00E15EC2;
+			productRefGroup = D1A7E0A91954D8FF00E15EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A7E0A71954D8FF00E15EC2 /* PhotoUp */,
+				D1A7E0CB1954D8FF00E15EC2 /* PhotoUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A7E0A61954D8FF00E15EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A7E0C71954D8FF00E15EC2 /* Images.xcassets in Resources */,
+				D1A7E0B61954D8FF00E15EC2 /* InfoPlist.strings in Resources */,
+				D1A7E0BF1954D8FF00E15EC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A7E0CA1954D8FF00E15EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A7E0D81954D8FF00E15EC2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A7E0A41954D8FF00E15EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */,
+				D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */,
+				D1A7E0C51954D8FF00E15EC2 /* PUDetailViewController.m in Sources */,
+				D1A7E0BC1954D8FF00E15EC2 /* PUAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A7E0C81954D8FF00E15EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A7E0DA1954D8FF00E15EC2 /* PhotoUpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1A7E0D21954D8FF00E15EC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1A7E0A71954D8FF00E15EC2 /* PhotoUp */;
+			targetProxy = D1A7E0D11954D8FF00E15EC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1A7E0B41954D8FF00E15EC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A7E0B51954D8FF00E15EC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A7E0BE1954D8FF00E15EC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1A7E0D61954D8FF00E15EC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A7E0D71954D8FF00E15EC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1A7E0DB1954D8FF00E15EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1A7E0DC1954D8FF00E15EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1A7E0DE1954D8FF00E15EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
+				INFOPLIST_FILE = "PhotoUp/PhotoUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1A7E0DF1954D8FF00E15EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
+				INFOPLIST_FILE = "PhotoUp/PhotoUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1A7E0E11954D8FF00E15EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoUp.app/PhotoUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PhotoUpTests/PhotoUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D1A7E0E21954D8FF00E15EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoUp.app/PhotoUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
+				INFOPLIST_FILE = "PhotoUpTests/PhotoUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A7E0A31954D8FF00E15EC2 /* Build configuration list for PBXProject "PhotoUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A7E0DB1954D8FF00E15EC2 /* Debug */,
+				D1A7E0DC1954D8FF00E15EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A7E0DD1954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A7E0DE1954D8FF00E15EC2 /* Debug */,
+				D1A7E0DF1954D8FF00E15EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1A7E0E01954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A7E0E11954D8FF00E15EC2 /* Debug */,
+				D1A7E0E21954D8FF00E15EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1A7E0A01954D8FF00E15EC2 /* Project object */;
+}
