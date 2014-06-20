@@ -3,3 +3,5 @@ inhibit_all_warnings!
 pod 'Facebook-iOS-SDK'
 pod 'FlurrySDK'
 pod 'GPUImage'
+pod 'Parse' 
+
