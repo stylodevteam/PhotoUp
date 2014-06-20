@@ -9,7 +9,7 @@
 #import "PUMasterViewController.h"
 
 #import "PUDetailViewController.h"
-//can
+
 @interface PUMasterViewController () {
     NSMutableArray *_objects;
 }
@@ -24,10 +24,6 @@
 
 - (void)viewDidLoad
 {
-    //tasaklarim cok buyuk
-    // can buraya geldi
-    
-    //can buraya yine geldi
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
