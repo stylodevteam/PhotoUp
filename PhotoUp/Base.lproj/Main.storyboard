@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="459" y="64"/>
         </scene>
-        <!--View Controller-->
+        <!--Compose View Controller-->
         <scene sceneID="0bo-Cq-WyU">
             <objects>
-                <viewController id="81Y-HG-ADm" sceneMemberID="viewController">
+                <viewController id="81Y-HG-ADm" customClass="PUComposeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LWP-ae-Ftv"/>
                         <viewControllerLayoutGuide type="bottom" id="cof-GD-Yz9"/>
