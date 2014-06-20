@@ -37,6 +37,17 @@
 
 - (void)viewDidLoad
 {
+    // ben cihan
+    
+    PFObject* object = [PFObject objectWithClassName:@"penisia"];
+    [object saveEventually:^(BOOL succeeded, NSError *error) {
+        if(error){
+            NSLog(@"Somethings wrong bro");
+        }else{
+            NSLog(@"No probs bro");
+        }
+    
+    }];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
