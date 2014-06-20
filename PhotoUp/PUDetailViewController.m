@@ -37,6 +37,7 @@
 
 - (void)viewDidLoad
 {
+    // ben cihan 
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
