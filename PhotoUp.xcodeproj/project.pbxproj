@@ -20,23 +20,8 @@
 		D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */; };
 		D1A7E0C51954D8FF00E15EC2 /* PUDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */; };
 		D1A7E0C71954D8FF00E15EC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */; };
-		D1A7E0CE1954D8FF00E15EC2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */; };
-		D1A7E0CF1954D8FF00E15EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */; };
-		D1A7E0D01954D8FF00E15EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */; };
-		D1A7E0D81954D8FF00E15EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0D61954D8FF00E15EC2 /* InfoPlist.strings */; };
-		D1A7E0DA1954D8FF00E15EC2 /* PhotoUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0D91954D8FF00E15EC2 /* PhotoUpTests.m */; };
 		D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D1A7E0D11954D8FF00E15EC2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D1A7E0A01954D8FF00E15EC2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D1A7E0A71954D8FF00E15EC2;
-			remoteInfo = PhotoUp;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		17C8CC3ECEC14DC4A9FEB7A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +44,6 @@
 		D1A7E0C31954D8FF00E15EC2 /* PUDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUDetailViewController.h; sourceTree = "<group>"; };
 		D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUDetailViewController.m; sourceTree = "<group>"; };
 		D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D1A7E0CC1954D8FF00E15EC2 /* PhotoUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1A7E0D51954D8FF00E15EC2 /* PhotoUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoUpTests-Info.plist"; sourceTree = "<group>"; };
 		D1A7E0D71954D8FF00E15EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -78,16 +62,6 @@
 				D1A7E0B01954D8FF00E15EC2 /* UIKit.framework in Frameworks */,
 				D1A7E0AC1954D8FF00E15EC2 /* Foundation.framework in Frameworks */,
 				CA87696C991F438F805FFFA4 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1A7E0C91954D8FF00E15EC2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1A7E0CE1954D8FF00E15EC2 /* XCTest.framework in Frameworks */,
-				D1A7E0D01954D8FF00E15EC2 /* UIKit.framework in Frameworks */,
-				D1A7E0CF1954D8FF00E15EC2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */,
-				D1A7E0CC1954D8FF00E15EC2 /* PhotoUpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,24 +171,6 @@
 			productReference = D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D1A7E0CB1954D8FF00E15EC2 /* PhotoUpTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D1A7E0E01954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUpTests" */;
-			buildPhases = (
-				D1A7E0C81954D8FF00E15EC2 /* Sources */,
-				D1A7E0C91954D8FF00E15EC2 /* Frameworks */,
-				D1A7E0CA1954D8FF00E15EC2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1A7E0D21954D8FF00E15EC2 /* PBXTargetDependency */,
-			);
-			name = PhotoUpTests;
-			productName = PhotoUpTests;
-			productReference = D1A7E0CC1954D8FF00E15EC2 /* PhotoUpTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,11 +180,6 @@
 				CLASSPREFIX = PU;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Peopleapps Limited";
-				TargetAttributes = {
-					D1A7E0CB1954D8FF00E15EC2 = {
-						TestTargetID = D1A7E0A71954D8FF00E15EC2;
-					};
-				};
 			};
 			buildConfigurationList = D1A7E0A31954D8FF00E15EC2 /* Build configuration list for PBXProject "PhotoUp" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -245,7 +195,6 @@
 			projectRoot = "";
 			targets = (
 				D1A7E0A71954D8FF00E15EC2 /* PhotoUp */,
-				D1A7E0CB1954D8FF00E15EC2 /* PhotoUpTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,14 +208,6 @@
 				D1A7E0B61954D8FF00E15EC2 /* InfoPlist.strings in Resources */,
 				367C36221954DC3300EA0CC6 /* Podfile in Resources */,
 				D1A7E0BF1954D8FF00E15EC2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1A7E0CA1954D8FF00E15EC2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1A7E0D81954D8FF00E15EC2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,23 +260,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1A7E0C81954D8FF00E15EC2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D1A7E0DA1954D8FF00E15EC2 /* PhotoUpTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D1A7E0D21954D8FF00E15EC2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D1A7E0A71954D8FF00E15EC2 /* PhotoUp */;
-			targetProxy = D1A7E0D11954D8FF00E15EC2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D1A7E0B41954D8FF00E15EC2 /* InfoPlist.strings */ = {
@@ -471,46 +396,6 @@
 			};
 			name = Release;
 		};
-		D1A7E0E11954D8FF00E15EC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoUp.app/PhotoUp";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "PhotoUpTests/PhotoUpTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		D1A7E0E21954D8FF00E15EC2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoUp.app/PhotoUp";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
-				INFOPLIST_FILE = "PhotoUpTests/PhotoUpTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -528,15 +413,6 @@
 			buildConfigurations = (
 				D1A7E0DE1954D8FF00E15EC2 /* Debug */,
 				D1A7E0DF1954D8FF00E15EC2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1A7E0E01954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUpTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D1A7E0E11954D8FF00E15EC2 /* Debug */,
-				D1A7E0E21954D8FF00E15EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
