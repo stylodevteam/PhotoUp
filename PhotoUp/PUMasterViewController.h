@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PUMasterViewController : UITableViewController
+@interface PUMasterViewController : UIViewController
 
 @end
