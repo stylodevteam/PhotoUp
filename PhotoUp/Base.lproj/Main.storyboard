@@ -62,6 +62,24 @@
             </objects>
             <point key="canvasLocation" x="459" y="64"/>
         </scene>
+        <!--Compose View Controller-->
+        <scene sceneID="0bo-Cq-WyU">
+            <objects>
+                <viewController id="81Y-HG-ADm" customClass="PUComposeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LWP-ae-Ftv"/>
+                        <viewControllerLayoutGuide type="bottom" id="cof-GD-Yz9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mll-NG-MJb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vuj-aj-AFs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1" y="797"/>
+        </scene>
         <!--Detail View Controller - Detail-->
         <scene sceneID="Cn3-H9-jdl">
             <objects>

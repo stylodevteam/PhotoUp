@@ -24,6 +24,7 @@
 		D1A7E0D01954D8FF00E15EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */; };
 		D1A7E0D81954D8FF00E15EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0D61954D8FF00E15EC2 /* InfoPlist.strings */; };
 		D1A7E0DA1954D8FF00E15EC2 /* PhotoUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0D91954D8FF00E15EC2 /* PhotoUpTests.m */; };
+		D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D1A7E0D51954D8FF00E15EC2 /* PhotoUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoUpTests-Info.plist"; sourceTree = "<group>"; };
 		D1A7E0D71954D8FF00E15EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1A7E0D91954D8FF00E15EC2 /* PhotoUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoUpTests.m; sourceTree = "<group>"; };
+		D4B167CD1954E91E00F24EE2 /* PUComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUComposeViewController.h; sourceTree = "<group>"; };
+		D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUComposeViewController.m; sourceTree = "<group>"; };
 		FE3C3A7EC26848408A75D60A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +136,8 @@
 				D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */,
 				D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */,
 				D1A7E0B21954D8FF00E15EC2 /* Supporting Files */,
+				D4B167CD1954E91E00F24EE2 /* PUComposeViewController.h */,
+				D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */,
 			);
 			path = PhotoUp;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 			files = (
 				D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */,
 				D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */,
+				D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */,
 				D1A7E0C51954D8FF00E15EC2 /* PUDetailViewController.m in Sources */,
 				D1A7E0BC1954D8FF00E15EC2 /* PUAppDelegate.m in Sources */,
 			);
