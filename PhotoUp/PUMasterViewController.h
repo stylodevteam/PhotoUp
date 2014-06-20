@@ -10,4 +10,10 @@
 
 @interface PUMasterViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet CPImageView *pushImageView;
+@property (weak, nonatomic) IBOutlet UITextView *pushTextView;
+
+-(void)displayPushNotification:(NSString*)text image:(UIImage*)image tapAction:(Action)action;
+
+
 @end

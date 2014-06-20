@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <containerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-Vv-yjj">
+                            <containerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cfx-Vv-yjj" userLabel="Master content">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -24,11 +24,57 @@
                                     <segue destination="rS3-R9-Ivy" kind="embed" id="1Fa-4Y-k8G"/>
                                 </connections>
                             </containerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68L-RW-cs3" userLabel="Push notification view">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CLg-Pu-ecX" customClass="CPImageView">
+                                        <rect key="frame" x="4" y="4" width="64" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="This is a sample push notification. I love it. It rocks." translatesAutoresizingMaskIntoConstraints="NO" id="cpE-Wh-qPa">
+                                        <rect key="frame" x="76" y="4" width="237" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.021594701020385583" green="0.091679994134650999" blue="0.23207610645933019" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="xBa-9f-y5N"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="QMx-HN-yDN" appends="YES" id="Scq-al-Mkr"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cfx-Vv-yjj" firstAttribute="top" secondItem="8L5-hG-dMG" secondAttribute="top" id="1Bg-wz-wXt"/>
+                            <constraint firstAttribute="trailing" secondItem="68L-RW-cs3" secondAttribute="trailing" id="7mf-4d-sHI"/>
+                            <constraint firstItem="EnJ-xG-QzT" firstAttribute="top" secondItem="cfx-Vv-yjj" secondAttribute="bottom" id="HCt-Sy-ZUu"/>
+                            <constraint firstAttribute="trailing" secondItem="cfx-Vv-yjj" secondAttribute="trailing" id="QQs-xk-X1i"/>
+                            <constraint firstItem="68L-RW-cs3" firstAttribute="leading" secondItem="8L5-hG-dMG" secondAttribute="leading" id="W8x-vL-Ty2"/>
+                            <constraint firstItem="68L-RW-cs3" firstAttribute="top" secondItem="krD-VP-C4C" secondAttribute="bottom" id="kKs-qo-cLa"/>
+                            <constraint firstItem="cfx-Vv-yjj" firstAttribute="leading" secondItem="8L5-hG-dMG" secondAttribute="leading" id="kSc-an-ipo"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="pushImageView" destination="CLg-Pu-ecX" id="FCI-Xk-ilC"/>
+                        <outlet property="pushNotificationContainerView" destination="68L-RW-cs3" id="KzM-KH-dbH"/>
+                        <outlet property="pushNotificationTopConstraint" destination="kKs-qo-cLa" id="XuU-KE-ri4"/>
+                        <outlet property="pushTextView" destination="cpE-Wh-qPa" id="Pgd-cm-GCP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ekh-FO-9pf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="QMx-HN-yDN">
+                    <connections>
+                        <action selector="pushTapped:" destination="wnj-ED-aP4" id="Yg6-CK-Gfc"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-379" y="64"/>
         </scene>

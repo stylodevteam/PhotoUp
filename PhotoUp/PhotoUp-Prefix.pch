@@ -17,4 +17,12 @@
 #import "PUAccountManager.h"
 #import <Parse/Parse.h>
 #import <Flurry.h>
+#import "CPImageView.h"
 #endif
+
+
+//can's additions. don't touch, just watch.
+typedef void (^Result)(BOOL success, id result);
+typedef void (^Action)();
+
+#define HANDLE(x) if(x){x();}
