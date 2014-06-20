@@ -24,6 +24,7 @@
 
 - (void)viewDidLoad
 {
+    //tasaklarim cok buyuk
     // can buraya geldi
     
     //can buraya yine geldi
