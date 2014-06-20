@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		367C36221954DC3300EA0CC6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 367C36211954DC3300EA0CC6 /* Podfile */; };
+		367C36251954EC5200EA0CC6 /* PUAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C36241954EC5200EA0CC6 /* PUAccountManager.m */; };
 		CA87696C991F438F805FFFA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C8CC3ECEC14DC4A9FEB7A9 /* libPods.a */; };
 		D1A7E0AC1954D8FF00E15EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */; };
 		D1A7E0AE1954D8FF00E15EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		17C8CC3ECEC14DC4A9FEB7A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C36211954DC3300EA0CC6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		367C36231954EC5200EA0CC6 /* PUAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUAccountManager.h; sourceTree = "<group>"; };
+		367C36241954EC5200EA0CC6 /* PUAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUAccountManager.m; sourceTree = "<group>"; };
 		D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +97,8 @@
 		D1A7E09F1954D8FF00E15EC2 = {
 			isa = PBXGroup;
 			children = (
+				367C36231954EC5200EA0CC6 /* PUAccountManager.h */,
+				367C36241954EC5200EA0CC6 /* PUAccountManager.m */,
 				367C36211954DC3300EA0CC6 /* Podfile */,
 				D1A7E0B11954D8FF00E15EC2 /* PhotoUp */,
 				D1A7E0D31954D8FF00E15EC2 /* PhotoUpTests */,
@@ -305,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367C36251954EC5200EA0CC6 /* PUAccountManager.m in Sources */,
 				D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */,
 				D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */,
 				D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */,
