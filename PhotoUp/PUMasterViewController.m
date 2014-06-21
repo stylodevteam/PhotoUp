@@ -8,7 +8,7 @@
 
 #import "PUMasterViewController.h"
 
-#import "PUDetailViewController.h"
+
 
 @interface PUMasterViewController () {
     NSMutableArray *_objects;

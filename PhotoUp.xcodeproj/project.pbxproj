@@ -19,9 +19,12 @@
 		D1A7E0BC1954D8FF00E15EC2 /* PUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */; };
 		D1A7E0BF1954D8FF00E15EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */; };
 		D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */; };
-		D1A7E0C51954D8FF00E15EC2 /* PUDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */; };
 		D1A7E0C71954D8FF00E15EC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */; };
 		D1C16450195590C1002A410F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D1C1644F195590C1002A410F /* .gitignore */; };
+		D1C1645319559823002A410F /* PUExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645219559823002A410F /* PUExploreViewController.m */; };
+		D1C1645619559833002A410F /* PUNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645519559833002A410F /* PUNotificationsViewController.m */; };
+		D1C16459195598AD002A410F /* PUProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C16458195598AD002A410F /* PUProfileViewController.m */; };
+		D1C1645C195598EC002A410F /* PUFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645B195598EC002A410F /* PUFeedViewController.m */; };
 		D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,11 +48,17 @@
 		D1A7E0BE1954D8FF00E15EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1A7E0C01954D8FF00E15EC2 /* PUMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUMasterViewController.h; sourceTree = "<group>"; };
 		D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUMasterViewController.m; sourceTree = "<group>"; };
-		D1A7E0C31954D8FF00E15EC2 /* PUDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUDetailViewController.h; sourceTree = "<group>"; };
-		D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUDetailViewController.m; sourceTree = "<group>"; };
 		D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1C1644F195590C1002A410F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		D1C1645119559823002A410F /* PUExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUExploreViewController.h; sourceTree = "<group>"; };
+		D1C1645219559823002A410F /* PUExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUExploreViewController.m; sourceTree = "<group>"; };
+		D1C1645419559833002A410F /* PUNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUNotificationsViewController.h; sourceTree = "<group>"; };
+		D1C1645519559833002A410F /* PUNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUNotificationsViewController.m; sourceTree = "<group>"; };
+		D1C16457195598AD002A410F /* PUProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUProfileViewController.h; sourceTree = "<group>"; };
+		D1C16458195598AD002A410F /* PUProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUProfileViewController.m; sourceTree = "<group>"; };
+		D1C1645A195598EC002A410F /* PUFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUFeedViewController.h; sourceTree = "<group>"; };
+		D1C1645B195598EC002A410F /* PUFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUFeedViewController.m; sourceTree = "<group>"; };
 		D4B167CD1954E91E00F24EE2 /* PUComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUComposeViewController.h; sourceTree = "<group>"; };
 		D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUComposeViewController.m; sourceTree = "<group>"; };
 		FE3C3A7EC26848408A75D60A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -77,6 +86,13 @@
 				367C36281954F3B600EA0CC6 /* CPImageView.m */,
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		D14DC65A1955A3EE00FA42FE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 		D1A7E09F1954D8FF00E15EC2 = {
@@ -120,12 +136,18 @@
 				D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */,
 				D1A7E0C01954D8FF00E15EC2 /* PUMasterViewController.h */,
 				D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */,
-				D1A7E0C31954D8FF00E15EC2 /* PUDetailViewController.h */,
-				D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */,
-				D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */,
-				D1A7E0B21954D8FF00E15EC2 /* Supporting Files */,
 				D4B167CD1954E91E00F24EE2 /* PUComposeViewController.h */,
 				D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */,
+				D1C1645119559823002A410F /* PUExploreViewController.h */,
+				D1C1645219559823002A410F /* PUExploreViewController.m */,
+				D1C1645419559833002A410F /* PUNotificationsViewController.h */,
+				D1C1645519559833002A410F /* PUNotificationsViewController.m */,
+				D1C16457195598AD002A410F /* PUProfileViewController.h */,
+				D1C16458195598AD002A410F /* PUProfileViewController.m */,
+				D1C1645A195598EC002A410F /* PUFeedViewController.h */,
+				D1C1645B195598EC002A410F /* PUFeedViewController.m */,
+				D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */,
+				D1A7E0B21954D8FF00E15EC2 /* Supporting Files */,
 			);
 			path = PhotoUp;
 			sourceTree = "<group>";
@@ -133,6 +155,7 @@
 		D1A7E0B21954D8FF00E15EC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D14DC65A1955A3EE00FA42FE /* Assets */,
 				367C36211954DC3300EA0CC6 /* Podfile */,
 				D1C1644F195590C1002A410F /* .gitignore */,
 				D1A7E0B31954D8FF00E15EC2 /* PhotoUp-Info.plist */,
@@ -246,13 +269,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C1645619559833002A410F /* PUNotificationsViewController.m in Sources */,
+				D1C1645C195598EC002A410F /* PUFeedViewController.m in Sources */,
+				D1C16459195598AD002A410F /* PUProfileViewController.m in Sources */,
 				367C36291954F3B600EA0CC6 /* CPImageView.m in Sources */,
 				367C36251954EC5200EA0CC6 /* PUAccountManager.m in Sources */,
 				D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */,
 				D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */,
 				D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */,
-				D1A7E0C51954D8FF00E15EC2 /* PUDetailViewController.m in Sources */,
 				D1A7E0BC1954D8FF00E15EC2 /* PUAppDelegate.m in Sources */,
+				D1C1645319559823002A410F /* PUExploreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
