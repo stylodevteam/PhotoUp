@@ -21,14 +21,15 @@
 		D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */; };
 		D1A7E0C51954D8FF00E15EC2 /* PUDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */; };
 		D1A7E0C71954D8FF00E15EC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */; };
+		D1C16450195590C1002A410F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D1C1644F195590C1002A410F /* .gitignore */; };
 		D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17C8CC3ECEC14DC4A9FEB7A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		367C36211954DC3300EA0CC6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		367C36231954EC5200EA0CC6 /* PUAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUAccountManager.h; sourceTree = "<group>"; };
-		367C36241954EC5200EA0CC6 /* PUAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUAccountManager.m; sourceTree = "<group>"; };
+		367C36211954DC3300EA0CC6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		367C36231954EC5200EA0CC6 /* PUAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PUAccountManager.h; path = ../PUAccountManager.h; sourceTree = "<group>"; };
+		367C36241954EC5200EA0CC6 /* PUAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PUAccountManager.m; path = ../PUAccountManager.m; sourceTree = "<group>"; };
 		367C36271954F3B600EA0CC6 /* CPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPImageView.h; sourceTree = "<group>"; };
 		367C36281954F3B600EA0CC6 /* CPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPImageView.m; sourceTree = "<group>"; };
 		D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +49,7 @@
 		D1A7E0C41954D8FF00E15EC2 /* PUDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUDetailViewController.m; sourceTree = "<group>"; };
 		D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D1C1644F195590C1002A410F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		D4B167CD1954E91E00F24EE2 /* PUComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUComposeViewController.h; sourceTree = "<group>"; };
 		D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUComposeViewController.m; sourceTree = "<group>"; };
 		FE3C3A7EC26848408A75D60A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -80,9 +82,6 @@
 		D1A7E09F1954D8FF00E15EC2 = {
 			isa = PBXGroup;
 			children = (
-				367C36231954EC5200EA0CC6 /* PUAccountManager.h */,
-				367C36241954EC5200EA0CC6 /* PUAccountManager.m */,
-				367C36211954DC3300EA0CC6 /* Podfile */,
 				D1A7E0B11954D8FF00E15EC2 /* PhotoUp */,
 				367C36261954F39200EA0CC6 /* Libraries */,
 				D1A7E0AA1954D8FF00E15EC2 /* Frameworks */,
@@ -114,6 +113,8 @@
 		D1A7E0B11954D8FF00E15EC2 /* PhotoUp */ = {
 			isa = PBXGroup;
 			children = (
+				367C36231954EC5200EA0CC6 /* PUAccountManager.h */,
+				367C36241954EC5200EA0CC6 /* PUAccountManager.m */,
 				D1A7E0BA1954D8FF00E15EC2 /* PUAppDelegate.h */,
 				D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */,
 				D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */,
@@ -132,6 +133,8 @@
 		D1A7E0B21954D8FF00E15EC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				367C36211954DC3300EA0CC6 /* Podfile */,
+				D1C1644F195590C1002A410F /* .gitignore */,
 				D1A7E0B31954D8FF00E15EC2 /* PhotoUp-Info.plist */,
 				D1A7E0B41954D8FF00E15EC2 /* InfoPlist.strings */,
 				D1A7E0B71954D8FF00E15EC2 /* main.m */,
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C16450195590C1002A410F /* .gitignore in Resources */,
 				D1A7E0C71954D8FF00E15EC2 /* Images.xcassets in Resources */,
 				D1A7E0B61954D8FF00E15EC2 /* InfoPlist.strings in Resources */,
 				367C36221954DC3300EA0CC6 /* Podfile in Resources */,
