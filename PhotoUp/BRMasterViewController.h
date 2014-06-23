@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PUMasterViewController : UIViewController
+@interface BRMasterViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet CPImageView *pushImageView;
 @property (weak, nonatomic) IBOutlet UITextView *pushTextView;

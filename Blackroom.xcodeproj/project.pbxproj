@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		367C36221954DC3300EA0CC6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 367C36211954DC3300EA0CC6 /* Podfile */; };
-		367C36251954EC5200EA0CC6 /* PUAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C36241954EC5200EA0CC6 /* PUAccountManager.m */; };
+		367C36251954EC5200EA0CC6 /* BRAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C36241954EC5200EA0CC6 /* BRAccountManager.m */; };
 		367C36291954F3B600EA0CC6 /* CPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C36281954F3B600EA0CC6 /* CPImageView.m */; };
 		CA87696C991F438F805FFFA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C8CC3ECEC14DC4A9FEB7A9 /* libPods.a */; };
 		D1A7E0AC1954D8FF00E15EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */; };
@@ -16,51 +16,51 @@
 		D1A7E0B01954D8FF00E15EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */; };
 		D1A7E0B61954D8FF00E15EC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0B41954D8FF00E15EC2 /* InfoPlist.strings */; };
 		D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0B71954D8FF00E15EC2 /* main.m */; };
-		D1A7E0BC1954D8FF00E15EC2 /* PUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */; };
+		D1A7E0BC1954D8FF00E15EC2 /* BRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0BB1954D8FF00E15EC2 /* BRAppDelegate.m */; };
 		D1A7E0BF1954D8FF00E15EC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */; };
-		D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */; };
+		D1A7E0C21954D8FF00E15EC2 /* BRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A7E0C11954D8FF00E15EC2 /* BRMasterViewController.m */; };
 		D1A7E0C71954D8FF00E15EC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */; };
 		D1C16450195590C1002A410F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D1C1644F195590C1002A410F /* .gitignore */; };
-		D1C1645319559823002A410F /* PUExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645219559823002A410F /* PUExploreViewController.m */; };
-		D1C1645619559833002A410F /* PUNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645519559833002A410F /* PUNotificationsViewController.m */; };
-		D1C16459195598AD002A410F /* PUProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C16458195598AD002A410F /* PUProfileViewController.m */; };
-		D1C1645C195598EC002A410F /* PUFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645B195598EC002A410F /* PUFeedViewController.m */; };
-		D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */; };
+		D1C1645319559823002A410F /* BRExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645219559823002A410F /* BRExploreViewController.m */; };
+		D1C1645619559833002A410F /* BRNotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645519559833002A410F /* BRNotificationsViewController.m */; };
+		D1C16459195598AD002A410F /* BRProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C16458195598AD002A410F /* BRProfileViewController.m */; };
+		D1C1645C195598EC002A410F /* BRFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C1645B195598EC002A410F /* BRFeedViewController.m */; };
+		D4B167CF1954E91E00F24EE2 /* BRComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B167CE1954E91E00F24EE2 /* BRComposeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17C8CC3ECEC14DC4A9FEB7A9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		367C36211954DC3300EA0CC6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
-		367C36231954EC5200EA0CC6 /* PUAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PUAccountManager.h; path = ../PUAccountManager.h; sourceTree = "<group>"; };
-		367C36241954EC5200EA0CC6 /* PUAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PUAccountManager.m; path = ../PUAccountManager.m; sourceTree = "<group>"; };
+		367C36231954EC5200EA0CC6 /* BRAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRAccountManager.h; path = ../BRAccountManager.h; sourceTree = "<group>"; };
+		367C36241954EC5200EA0CC6 /* BRAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAccountManager.m; path = ../BRAccountManager.m; sourceTree = "<group>"; };
 		367C36271954F3B600EA0CC6 /* CPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPImageView.h; sourceTree = "<group>"; };
 		367C36281954F3B600EA0CC6 /* CPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPImageView.m; sourceTree = "<group>"; };
-		D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A7E0A81954D8FF00E15EC2 /* Blackroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D1A7E0B31954D8FF00E15EC2 /* PhotoUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoUp-Info.plist"; sourceTree = "<group>"; };
+		D1A7E0B31954D8FF00E15EC2 /* Blackroom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Blackroom-Info.plist"; sourceTree = "<group>"; };
 		D1A7E0B51954D8FF00E15EC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1A7E0B71954D8FF00E15EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1A7E0B91954D8FF00E15EC2 /* PhotoUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoUp-Prefix.pch"; sourceTree = "<group>"; };
-		D1A7E0BA1954D8FF00E15EC2 /* PUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUAppDelegate.h; sourceTree = "<group>"; };
-		D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUAppDelegate.m; sourceTree = "<group>"; };
+		D1A7E0B91954D8FF00E15EC2 /* Blackroom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Blackroom-Prefix.pch"; sourceTree = "<group>"; };
+		D1A7E0BA1954D8FF00E15EC2 /* BRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAppDelegate.h; sourceTree = "<group>"; };
+		D1A7E0BB1954D8FF00E15EC2 /* BRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAppDelegate.m; sourceTree = "<group>"; };
 		D1A7E0BE1954D8FF00E15EC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1A7E0C01954D8FF00E15EC2 /* PUMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUMasterViewController.h; sourceTree = "<group>"; };
-		D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUMasterViewController.m; sourceTree = "<group>"; };
+		D1A7E0C01954D8FF00E15EC2 /* BRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRMasterViewController.h; sourceTree = "<group>"; };
+		D1A7E0C11954D8FF00E15EC2 /* BRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRMasterViewController.m; sourceTree = "<group>"; };
 		D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D1A7E0CD1954D8FF00E15EC2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D1C1644F195590C1002A410F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
-		D1C1645119559823002A410F /* PUExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUExploreViewController.h; sourceTree = "<group>"; };
-		D1C1645219559823002A410F /* PUExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUExploreViewController.m; sourceTree = "<group>"; };
-		D1C1645419559833002A410F /* PUNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUNotificationsViewController.h; sourceTree = "<group>"; };
-		D1C1645519559833002A410F /* PUNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUNotificationsViewController.m; sourceTree = "<group>"; };
-		D1C16457195598AD002A410F /* PUProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUProfileViewController.h; sourceTree = "<group>"; };
-		D1C16458195598AD002A410F /* PUProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUProfileViewController.m; sourceTree = "<group>"; };
-		D1C1645A195598EC002A410F /* PUFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUFeedViewController.h; sourceTree = "<group>"; };
-		D1C1645B195598EC002A410F /* PUFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUFeedViewController.m; sourceTree = "<group>"; };
-		D4B167CD1954E91E00F24EE2 /* PUComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUComposeViewController.h; sourceTree = "<group>"; };
-		D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUComposeViewController.m; sourceTree = "<group>"; };
+		D1C1645119559823002A410F /* BRExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRExploreViewController.h; sourceTree = "<group>"; };
+		D1C1645219559823002A410F /* BRExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRExploreViewController.m; sourceTree = "<group>"; };
+		D1C1645419559833002A410F /* BRNotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRNotificationsViewController.h; sourceTree = "<group>"; };
+		D1C1645519559833002A410F /* BRNotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRNotificationsViewController.m; sourceTree = "<group>"; };
+		D1C16457195598AD002A410F /* BRProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRProfileViewController.h; sourceTree = "<group>"; };
+		D1C16458195598AD002A410F /* BRProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRProfileViewController.m; sourceTree = "<group>"; };
+		D1C1645A195598EC002A410F /* BRFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRFeedViewController.h; sourceTree = "<group>"; };
+		D1C1645B195598EC002A410F /* BRFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRFeedViewController.m; sourceTree = "<group>"; };
+		D4B167CD1954E91E00F24EE2 /* BRComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRComposeViewController.h; sourceTree = "<group>"; };
+		D4B167CE1954E91E00F24EE2 /* BRComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRComposeViewController.m; sourceTree = "<group>"; };
 		FE3C3A7EC26848408A75D60A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,7 +98,7 @@
 		D1A7E09F1954D8FF00E15EC2 = {
 			isa = PBXGroup;
 			children = (
-				D1A7E0B11954D8FF00E15EC2 /* PhotoUp */,
+				D1A7E0B11954D8FF00E15EC2 /* Blackroom */,
 				367C36261954F39200EA0CC6 /* Libraries */,
 				D1A7E0AA1954D8FF00E15EC2 /* Frameworks */,
 				D1A7E0A91954D8FF00E15EC2 /* Products */,
@@ -109,7 +109,7 @@
 		D1A7E0A91954D8FF00E15EC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */,
+				D1A7E0A81954D8FF00E15EC2 /* Blackroom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,29 +126,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D1A7E0B11954D8FF00E15EC2 /* PhotoUp */ = {
+		D1A7E0B11954D8FF00E15EC2 /* Blackroom */ = {
 			isa = PBXGroup;
 			children = (
-				367C36231954EC5200EA0CC6 /* PUAccountManager.h */,
-				367C36241954EC5200EA0CC6 /* PUAccountManager.m */,
-				D1A7E0BA1954D8FF00E15EC2 /* PUAppDelegate.h */,
-				D1A7E0BB1954D8FF00E15EC2 /* PUAppDelegate.m */,
+				367C36231954EC5200EA0CC6 /* BRAccountManager.h */,
+				367C36241954EC5200EA0CC6 /* BRAccountManager.m */,
+				D1A7E0BA1954D8FF00E15EC2 /* BRAppDelegate.h */,
+				D1A7E0BB1954D8FF00E15EC2 /* BRAppDelegate.m */,
 				D1A7E0BD1954D8FF00E15EC2 /* Main.storyboard */,
-				D1A7E0C01954D8FF00E15EC2 /* PUMasterViewController.h */,
-				D1A7E0C11954D8FF00E15EC2 /* PUMasterViewController.m */,
-				D4B167CD1954E91E00F24EE2 /* PUComposeViewController.h */,
-				D4B167CE1954E91E00F24EE2 /* PUComposeViewController.m */,
-				D1C1645119559823002A410F /* PUExploreViewController.h */,
-				D1C1645219559823002A410F /* PUExploreViewController.m */,
-				D1C1645419559833002A410F /* PUNotificationsViewController.h */,
-				D1C1645519559833002A410F /* PUNotificationsViewController.m */,
-				D1C16457195598AD002A410F /* PUProfileViewController.h */,
-				D1C16458195598AD002A410F /* PUProfileViewController.m */,
-				D1C1645A195598EC002A410F /* PUFeedViewController.h */,
-				D1C1645B195598EC002A410F /* PUFeedViewController.m */,
+				D1A7E0C01954D8FF00E15EC2 /* BRMasterViewController.h */,
+				D1A7E0C11954D8FF00E15EC2 /* BRMasterViewController.m */,
+				D4B167CD1954E91E00F24EE2 /* BRComposeViewController.h */,
+				D4B167CE1954E91E00F24EE2 /* BRComposeViewController.m */,
+				D1C1645119559823002A410F /* BRExploreViewController.h */,
+				D1C1645219559823002A410F /* BRExploreViewController.m */,
+				D1C1645419559833002A410F /* BRNotificationsViewController.h */,
+				D1C1645519559833002A410F /* BRNotificationsViewController.m */,
+				D1C16457195598AD002A410F /* BRProfileViewController.h */,
+				D1C16458195598AD002A410F /* BRProfileViewController.m */,
+				D1C1645A195598EC002A410F /* BRFeedViewController.h */,
+				D1C1645B195598EC002A410F /* BRFeedViewController.m */,
 				D1A7E0C61954D8FF00E15EC2 /* Images.xcassets */,
 				D1A7E0B21954D8FF00E15EC2 /* Supporting Files */,
 			);
+			name = Blackroom;
 			path = PhotoUp;
 			sourceTree = "<group>";
 		};
@@ -158,10 +159,10 @@
 				D14DC65A1955A3EE00FA42FE /* Assets */,
 				367C36211954DC3300EA0CC6 /* Podfile */,
 				D1C1644F195590C1002A410F /* .gitignore */,
-				D1A7E0B31954D8FF00E15EC2 /* PhotoUp-Info.plist */,
+				D1A7E0B31954D8FF00E15EC2 /* Blackroom-Info.plist */,
 				D1A7E0B41954D8FF00E15EC2 /* InfoPlist.strings */,
 				D1A7E0B71954D8FF00E15EC2 /* main.m */,
-				D1A7E0B91954D8FF00E15EC2 /* PhotoUp-Prefix.pch */,
+				D1A7E0B91954D8FF00E15EC2 /* Blackroom-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1A7E0A71954D8FF00E15EC2 /* PhotoUp */ = {
+		D1A7E0A71954D8FF00E15EC2 /* Blackroom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1A7E0DD1954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUp" */;
+			buildConfigurationList = D1A7E0DD1954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "Blackroom" */;
 			buildPhases = (
 				5B1F1842528A4BFEB73759C9 /* Check Pods Manifest.lock */,
 				D1A7E0A41954D8FF00E15EC2 /* Sources */,
@@ -183,9 +184,9 @@
 			);
 			dependencies = (
 			);
-			name = PhotoUp;
+			name = Blackroom;
 			productName = PhotoUp;
-			productReference = D1A7E0A81954D8FF00E15EC2 /* PhotoUp.app */;
+			productReference = D1A7E0A81954D8FF00E15EC2 /* Blackroom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -194,11 +195,11 @@
 		D1A7E0A01954D8FF00E15EC2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = PU;
+				CLASSPREFIX = BR;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Peopleapps Limited";
 			};
-			buildConfigurationList = D1A7E0A31954D8FF00E15EC2 /* Build configuration list for PBXProject "PhotoUp" */;
+			buildConfigurationList = D1A7E0A31954D8FF00E15EC2 /* Build configuration list for PBXProject "Blackroom" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1A7E0A71954D8FF00E15EC2 /* PhotoUp */,
+				D1A7E0A71954D8FF00E15EC2 /* Blackroom */,
 			);
 		};
 /* End PBXProject section */
@@ -269,16 +270,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C1645619559833002A410F /* PUNotificationsViewController.m in Sources */,
-				D1C1645C195598EC002A410F /* PUFeedViewController.m in Sources */,
-				D1C16459195598AD002A410F /* PUProfileViewController.m in Sources */,
+				D1C1645619559833002A410F /* BRNotificationsViewController.m in Sources */,
+				D1C1645C195598EC002A410F /* BRFeedViewController.m in Sources */,
+				D1C16459195598AD002A410F /* BRProfileViewController.m in Sources */,
 				367C36291954F3B600EA0CC6 /* CPImageView.m in Sources */,
-				367C36251954EC5200EA0CC6 /* PUAccountManager.m in Sources */,
-				D1A7E0C21954D8FF00E15EC2 /* PUMasterViewController.m in Sources */,
+				367C36251954EC5200EA0CC6 /* BRAccountManager.m in Sources */,
+				D1A7E0C21954D8FF00E15EC2 /* BRMasterViewController.m in Sources */,
 				D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */,
-				D4B167CF1954E91E00F24EE2 /* PUComposeViewController.m in Sources */,
-				D1A7E0BC1954D8FF00E15EC2 /* PUAppDelegate.m in Sources */,
-				D1C1645319559823002A410F /* PUExploreViewController.m in Sources */,
+				D4B167CF1954E91E00F24EE2 /* BRComposeViewController.m in Sources */,
+				D1A7E0BC1954D8FF00E15EC2 /* BRAppDelegate.m in Sources */,
+				D1C1645319559823002A410F /* BRExploreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,9 +386,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
-				INFOPLIST_FILE = "PhotoUp/PhotoUp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PhotoUp/Blackroom-Prefix.pch";
+				INFOPLIST_FILE = "PhotoUp/Blackroom-Info.plist";
+				PRODUCT_NAME = Blackroom;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,9 +404,9 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PhotoUp/PhotoUp-Prefix.pch";
-				INFOPLIST_FILE = "PhotoUp/PhotoUp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PhotoUp/Blackroom-Prefix.pch";
+				INFOPLIST_FILE = "PhotoUp/Blackroom-Info.plist";
+				PRODUCT_NAME = Blackroom;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,7 +414,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1A7E0A31954D8FF00E15EC2 /* Build configuration list for PBXProject "PhotoUp" */ = {
+		D1A7E0A31954D8FF00E15EC2 /* Build configuration list for PBXProject "Blackroom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1A7E0DB1954D8FF00E15EC2 /* Debug */,
@@ -422,7 +423,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1A7E0DD1954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "PhotoUp" */ = {
+		D1A7E0DD1954D8FF00E15EC2 /* Build configuration list for PBXNativeTarget "Blackroom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1A7E0DE1954D8FF00E15EC2 /* Debug */,

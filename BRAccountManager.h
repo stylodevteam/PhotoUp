@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PUAccountManager : NSObject
+typedef void (^Result)(BOOL success, id result);
+
+@interface BRAccountManager : NSObject
+
+-(void)loginWithFacebookWithCompletion:(Result)completionHandler;
 
 @end

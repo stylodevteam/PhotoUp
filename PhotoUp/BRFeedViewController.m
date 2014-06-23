@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Peopleapps Limited. All rights reserved.
 //
 
-#import "PUFeedViewController.h"
+#import "BRFeedViewController.h"
 
-@interface PUFeedViewController ()
+@interface BRFeedViewController ()
 
 @end
 
-@implementation PUFeedViewController
+@implementation BRFeedViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

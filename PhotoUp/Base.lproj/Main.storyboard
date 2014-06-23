@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A261i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wnj-ED-aP4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wnj-ED-aP4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--Master View Controller-->
         <scene sceneID="LEL-nq-jgU">
             <objects>
-                <viewController id="wnj-ED-aP4" customClass="PUMasterViewController" sceneMemberID="viewController">
+                <viewController id="wnj-ED-aP4" customClass="BRMasterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="krD-VP-C4C"/>
                         <viewControllerLayoutGuide type="bottom" id="EnJ-xG-QzT"/>
@@ -96,7 +96,7 @@
         <!--Explore View Controller - Explore-->
         <scene sceneID="arx-xB-YJy">
             <objects>
-                <viewController title="Explore" id="Qkj-UD-Fut" customClass="PUExploreViewController" sceneMemberID="viewController">
+                <viewController title="Explore" id="Qkj-UD-Fut" customClass="BRExploreViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rn4-YA-eCc"/>
                         <viewControllerLayoutGuide type="bottom" id="GfD-dd-Bfv"/>
@@ -123,7 +123,7 @@
         <!--Feed View Controller - Feed-->
         <scene sceneID="MDR-Ml-g1q">
             <objects>
-                <viewController title="Feed" id="Rbq-ZI-iAa" customClass="PUFeedViewController" sceneMemberID="viewController">
+                <viewController title="Feed" id="Rbq-ZI-iAa" customClass="BRFeedViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sVJ-av-NcC"/>
                         <viewControllerLayoutGuide type="bottom" id="RQN-ah-Y0S"/>
@@ -184,7 +184,7 @@
         <!--Compose View Controller - Compose-->
         <scene sceneID="0bo-Cq-WyU">
             <objects>
-                <viewController id="81Y-HG-ADm" customClass="PUComposeViewController" sceneMemberID="viewController">
+                <viewController id="81Y-HG-ADm" customClass="BRComposeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LWP-ae-Ftv"/>
                         <viewControllerLayoutGuide type="bottom" id="cof-GD-Yz9"/>

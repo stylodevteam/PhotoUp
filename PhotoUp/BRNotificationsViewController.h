@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PUNotificationsViewController : UIViewController
+@interface BRNotificationsViewController : UIViewController
 
 @end

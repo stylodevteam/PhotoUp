@@ -8,5 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PUFeedViewController : UIViewController
+@interface BRFeedViewController : UIViewController
 @end

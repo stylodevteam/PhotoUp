@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Peopleapps Limited. All rights reserved.
 //
 
-#import "PUExploreViewController.h"
+#import "BRExploreViewController.h"
 
-@interface PUExploreViewController ()
+@interface BRExploreViewController ()
 
 @end
 
-@implementation PUExploreViewController
+@implementation BRExploreViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

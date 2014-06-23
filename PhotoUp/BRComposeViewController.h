@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PUComposeViewController : UIViewController
+@interface BRComposeViewController : UIViewController
 
 @end

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Peopleapps Limited. All rights reserved.
 //
 
-#import "PUNotificationsViewController.h"
+#import "BRNotificationsViewController.h"
 
-@interface PUNotificationsViewController ()
+@interface BRNotificationsViewController ()
 
 @end
 
-@implementation PUNotificationsViewController
+@implementation BRNotificationsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

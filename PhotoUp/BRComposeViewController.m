@@ -1,18 +1,18 @@
 //
-//  PUProfileViewController.m
+//  PUComposeViewController.m
 //  PhotoUp
 //
-//  Created by Cihan Köseoğlu on 6/21/14.
+//  Created by Ugur on 21/06/14.
 //  Copyright (c) 2014 Peopleapps Limited. All rights reserved.
 //
 
-#import "PUProfileViewController.h"
+#import "BRComposeViewController.h"
 
-@interface PUProfileViewController ()
+@interface BRComposeViewController ()
 
 @end
 
-@implementation PUProfileViewController
+@implementation BRComposeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -1,5 +1,5 @@
 //
-//  PUProfileViewController.h
+//  PUExploreViewController.h
 //  PhotoUp
 //
 //  Created by Cihan Köseoğlu on 6/21/14.
@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PUProfileViewController : UIViewController
+@interface BRExploreViewController : PFQueryTableViewController
+
+
+@property (nonatomic) IBOutlet UITableView* exploreTableView;
+
+
 
 @end

@@ -14,7 +14,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
-#import "PUAccountManager.h"
+#import "BRAccountManager.h"
 #import <Parse/Parse.h>
 #import <Flurry.h>
 #import "CPImageView.h"
@@ -26,3 +26,5 @@ typedef void (^Result)(BOOL success, id result);
 typedef void (^Action)();
 
 #define HANDLE(x) if(x){x();}
+
+ 

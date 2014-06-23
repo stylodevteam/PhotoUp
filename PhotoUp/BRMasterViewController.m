@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Peopleapps Limited. All rights reserved.
 //
 
-#import "PUMasterViewController.h"
+#import "BRMasterViewController.h"
 
 
 
-@interface PUMasterViewController () {
+@interface BRMasterViewController () {
     NSMutableArray *_objects;
     __weak IBOutlet NSLayoutConstraint *pushNotificationTopConstraint;
     __weak IBOutlet UIView *pushNotificationContainerView;
@@ -18,7 +18,7 @@
 }
 @end
 
-@implementation PUMasterViewController
+@implementation BRMasterViewController
 
 
 -(void)displayPushNotification:(NSString*)text image:(UIImage*)image tapAction:(Action)action{
