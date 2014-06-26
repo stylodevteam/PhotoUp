@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BRNotificationsViewController : UIViewController
+@interface BRNotificationsViewController : PFQueryTableViewController
+
+// A class method to determine what the activity is and end the string accordingly.
+
++(NSString *)handleStringEndingForGivenActivity:(NSString *)activity;
+
 
 @end

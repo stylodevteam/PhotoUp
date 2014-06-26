@@ -26,6 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // setting the class name 
+    self.parseClassName = kBRClassKeyActivity;
     // Do any additional setup after loading the view.
 }
 
@@ -45,5 +48,84 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+
+#pragma mark - UITableViewDelegate
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if(indexPath.row < self.objects.count){
+        
+        PFObject *object = [self.objects objectAtIndex:indexPath.row];
+       
+        
+    }
+    
+    return 0;
+    
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+}
+
+#pragma mark - PFQueryTableViewController
+
+-(PFQuery *)queryForTable
+{
+    if(![PFUser currentUser]){
+        PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
+        [query setLimit:0];
+        return query;
+    }
+    
+    PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
+    
+    
+    
+    
+    return query;
+}
+
+
+
+
+
+
+
+
+#pragma mark - BRNotificationViewController
+
+
+/* 
+ * Given an activity on the notifications feed, it will put the correct ending.
+ */
++(NSString *)handleStringEndingForGivenActivity:(NSString *)activity
+{
+    
+    if([activity isEqualToString:kBRNotificationActivityLike]){
+        return @"liked your photo";
+    }else if([activity isEqualToString:kBRNotificationActivityFollow]){
+        return @"started following you";
+    }else if([activity isEqualToString:kBRNotificationActivityUnfollow]){
+        return @"stopped following you";
+    }else if([activity isEqualToString:kBRNotificationActivityComment]){
+        return @"commented on your photo";
+    }else if([activity isEqualToString:kBRNotificationActivityJoin]){
+        return @"joined Blackroom";
+    }else
+        return @" ";
+    
+
+}
+
+
+
+
+
+
 
 @end

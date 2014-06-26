@@ -18,6 +18,8 @@
 #import <Parse/Parse.h>
 #import <Flurry.h>
 #import "CPImageView.h"
+#import "BRConstants.h"
+#import "BRMacros.h"
 #endif
 
 

@@ -14,6 +14,23 @@
 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+    // Initialize Parse and Facebook
+    [Parse setApplicationId:@"3RyXTQuCeC4ynHFImODvYMOe1eiUgcUctu2LUOYl" clientKey:@"WWocTixl1UzuI7Sq4EnHXp8COjCixXnefla6neSA"];
+    [PFFacebookUtils initializeFacebook];
+    
+    //Initialize Parse Analytics
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    
+    
+    if(application.applicationIconBadgeNumber !=0){
+        application.applicationIconBadgeNumber = 0;
+        [[PFInstallation currentInstallation] saveInBackground];
+    }
+    
+    
     // Register for push notifications
     [application registerForRemoteNotificationTypes:
      UIRemoteNotificationTypeBadge |
@@ -23,6 +40,9 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     return YES;
 }
+
+
+// Parse Push Methods
 
 - (void)application:(UIApplication *)application
 didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken {

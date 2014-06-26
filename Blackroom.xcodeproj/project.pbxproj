@@ -11,6 +11,8 @@
 		367C36251954EC5200EA0CC6 /* BRAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C36241954EC5200EA0CC6 /* BRAccountManager.m */; };
 		367C36291954F3B600EA0CC6 /* CPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 367C36281954F3B600EA0CC6 /* CPImageView.m */; };
 		CA87696C991F438F805FFFA4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C8CC3ECEC14DC4A9FEB7A9 /* libPods.a */; };
+		D11F5BF6195CC63000EDD099 /* BRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F5BF5195CC63000EDD099 /* BRConstants.m */; };
+		D11F5BF9195CC64000EDD099 /* BRMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F5BF8195CC64000EDD099 /* BRMacros.m */; };
 		D1A7E0AC1954D8FF00E15EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */; };
 		D1A7E0AE1954D8FF00E15EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */; };
 		D1A7E0B01954D8FF00E15EC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A7E0AF1954D8FF00E15EC2 /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 		367C36241954EC5200EA0CC6 /* BRAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRAccountManager.m; path = ../BRAccountManager.m; sourceTree = "<group>"; };
 		367C36271954F3B600EA0CC6 /* CPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPImageView.h; sourceTree = "<group>"; };
 		367C36281954F3B600EA0CC6 /* CPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPImageView.m; sourceTree = "<group>"; };
+		D11F5BF4195CC63000EDD099 /* BRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRConstants.h; sourceTree = "<group>"; };
+		D11F5BF5195CC63000EDD099 /* BRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRConstants.m; sourceTree = "<group>"; };
+		D11F5BF7195CC64000EDD099 /* BRMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRMacros.h; sourceTree = "<group>"; };
+		D11F5BF8195CC64000EDD099 /* BRMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRMacros.m; sourceTree = "<group>"; };
 		D1A7E0A81954D8FF00E15EC2 /* Blackroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A7E0AB1954D8FF00E15EC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D1A7E0AD1954D8FF00E15EC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +94,17 @@
 			name = Libraries;
 			sourceTree = "<group>";
 		};
+		D11F5BF3195CC61100EDD099 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D11F5BF4195CC63000EDD099 /* BRConstants.h */,
+				D11F5BF5195CC63000EDD099 /* BRConstants.m */,
+				D11F5BF7195CC64000EDD099 /* BRMacros.h */,
+				D11F5BF8195CC64000EDD099 /* BRMacros.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
 		D14DC65A1955A3EE00FA42FE /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +146,7 @@
 		D1A7E0B11954D8FF00E15EC2 /* Blackroom */ = {
 			isa = PBXGroup;
 			children = (
+				D11F5BF3195CC61100EDD099 /* Constants */,
 				367C36231954EC5200EA0CC6 /* BRAccountManager.h */,
 				367C36241954EC5200EA0CC6 /* BRAccountManager.m */,
 				D1A7E0BA1954D8FF00E15EC2 /* BRAppDelegate.h */,
@@ -271,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1C1645619559833002A410F /* BRNotificationsViewController.m in Sources */,
+				D11F5BF6195CC63000EDD099 /* BRConstants.m in Sources */,
 				D1C1645C195598EC002A410F /* BRFeedViewController.m in Sources */,
 				D1C16459195598AD002A410F /* BRProfileViewController.m in Sources */,
 				367C36291954F3B600EA0CC6 /* CPImageView.m in Sources */,
@@ -279,6 +298,7 @@
 				D1A7E0B81954D8FF00E15EC2 /* main.m in Sources */,
 				D4B167CF1954E91E00F24EE2 /* BRComposeViewController.m in Sources */,
 				D1A7E0BC1954D8FF00E15EC2 /* BRAppDelegate.m in Sources */,
+				D11F5BF9195CC64000EDD099 /* BRMacros.m in Sources */,
 				D1C1645319559823002A410F /* BRExploreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
